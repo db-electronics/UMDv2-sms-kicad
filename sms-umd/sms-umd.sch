@@ -693,13 +693,6 @@ Wire Wire Line
 	3400 6700 3250 6700
 Connection ~ 3250 6700
 Wire Wire Line
-	3250 6700 3250 6800
-Wire Wire Line
-	3400 6800 3250 6800
-Connection ~ 3250 6800
-Wire Wire Line
-	3250 6800 3250 6900
-Wire Wire Line
 	3400 6900 3250 6900
 Connection ~ 3250 6900
 Wire Wire Line
@@ -1153,4 +1146,23 @@ Text Label 2950 4150 0    50   ~ 0
 ~BUSACK~
 Text Label 2950 4050 0    50   ~ 0
 ~MREQ~
+Wire Wire Line
+	3250 6700 3250 6900
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5E6C010C
+P 3000 6800
+F 0 "#PWR?" H 3000 6650 50  0001 C CNN
+F 1 "+3.3V" H 3015 6973 50  0000 C CNN
+F 2 "" H 3000 6800 50  0001 C CNN
+F 3 "" H 3000 6800 50  0001 C CNN
+	1    3000 6800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3000 6800 3400 6800
+Wire Wire Line
+	7700 1950 8250 1950
+Text Label 7700 1950 0    50   ~ 0
+GND
 $EndSCHEMATC
