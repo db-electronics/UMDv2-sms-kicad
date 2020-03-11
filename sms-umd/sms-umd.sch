@@ -787,7 +787,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 3700 5350 3700
 Text Label 4800 4700 0    50   ~ 0
-CLK
+TCK
 Wire Wire Line
 	4800 3800 5350 3800
 Wire Wire Line
@@ -1081,10 +1081,6 @@ Wire Wire Line
 	6350 4600 6900 4600
 Text Label 6450 4600 0    50   ~ 0
 ~RST~
-Wire Wire Line
-	5350 4200 4800 4200
-Text Label 4800 4200 0    50   ~ 0
-~M1~
 $Comp
 L db-connectors:JTAG-2X5-HDR CON103
 U 1 1 5E6C0C0D
@@ -1132,8 +1128,6 @@ Wire Wire Line
 	4800 2500 5350 2500
 Text Label 4800 2500 0    50   ~ 0
 ~MREQ~
-Text Label 4800 4200 0    50   ~ 0
-~M1~
 Wire Wire Line
 	2900 4050 3450 4050
 Wire Wire Line
@@ -1165,4 +1159,8 @@ Wire Wire Line
 	7700 1950 8250 1950
 Text Label 7700 1950 0    50   ~ 0
 GND
+Wire Wire Line
+	5350 2400 4800 2400
+Text Label 4800 2400 0    50   ~ 0
+5V_0
 $EndSCHEMATC
