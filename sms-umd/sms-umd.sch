@@ -5,8 +5,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Sega Master System UMDv2 Cartridge Adapter"
-Date "2020-03-06"
-Rev "2.0"
+Date "2020-03-20"
+Rev "1.0"
 Comp "db Electronics"
 Comment1 "https://github.com/db-electronics/UMDv2-sms-kicad"
 Comment2 "Licensed under CERN OHL v.1.2"
@@ -950,8 +950,6 @@ Text Label 7700 5050 0    50   ~ 0
 GND
 Wire Wire Line
 	5350 4100 4800 4100
-Text Label 4800 3400 0    50   ~ 0
-GND
 Wire Wire Line
 	8250 4150 7700 4150
 $Comp
@@ -1163,4 +1161,6 @@ Wire Wire Line
 	5350 2400 4800 2400
 Text Label 4800 2400 0    50   ~ 0
 5V_0
+Text Label 4800 3400 0    50   ~ 0
+~CART~
 $EndSCHEMATC
